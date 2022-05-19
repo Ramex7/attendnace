@@ -17,5 +17,5 @@
            header("Location: phpcrud/index.php");
         }  
         else{  
-           header("Location: login.php?error=Incorect email or password&email=$email");
+           header("Location: index.php?error=Incorect email or password&email=$email");
         }     
